@@ -1,0 +1,6 @@
+# Project-scoped Codex config. Codex only loads this for projects marked trusted.
+[mcp_servers.unityMCP]
+command = "uvx"
+args = ["--from", "mcpforunityserver==10.3.0", "mcp-for-unity", "--transport", "stdio"]
+startup_timeout_sec = 60
+env = { SystemRoot = "C:\Windows" }

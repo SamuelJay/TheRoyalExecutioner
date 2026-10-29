@@ -1,0 +1,59 @@
+# Unity project lives in ./TheRoyalExecutioner/ — all Unity rules are anchored to it.
+
+# Generated Unity folders
+/TheRoyalExecutioner/[Ll]ibrary/
+/TheRoyalExecutioner/[Tt]emp/
+/TheRoyalExecutioner/[Oo]bj/
+/TheRoyalExecutioner/[Bb]uild/
+/TheRoyalExecutioner/[Bb]uilds/
+/TheRoyalExecutioner/[Ll]ogs/
+/TheRoyalExecutioner/[Uu]ser[Ss]ettings/
+/TheRoyalExecutioner/[Mm]emoryCaptures/
+/TheRoyalExecutioner/[Rr]ecordings/
+
+# Generated IDE project files
+/TheRoyalExecutioner/*.csproj
+/TheRoyalExecutioner/*.sln
+/TheRoyalExecutioner/*.slnx
+/TheRoyalExecutioner/*.suo
+/TheRoyalExecutioner/*.user
+/TheRoyalExecutioner/*.userprefs
+/TheRoyalExecutioner/*.pidb
+/TheRoyalExecutioner/*.booproj
+/TheRoyalExecutioner/*.unityproj
+/TheRoyalExecutioner/.vs/
+/TheRoyalExecutioner/.idea/
+/TheRoyalExecutioner/.vscode/
+/TheRoyalExecutioner/.utmp/
+/TheRoyalExecutioner/ExportedObj/
+/TheRoyalExecutioner/.consulo/
+/TheRoyalExecutioner/.gradle/
+/TheRoyalExecutioner/.vsconfig.user
+/TheRoyalExecutioner/Assets/Plugins/Editor/JetBrains*
+/TheRoyalExecutioner/sysinfo.txt
+/TheRoyalExecutioner/crashlytics-build.properties
+
+# Build outputs / debug symbols
+*.apk
+*.aab
+*.unitypackage
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity-generated files
+/TheRoyalExecutioner/Assets/StreamingAssets/aa.meta
+/TheRoyalExecutioner/Assets/StreamingAssets/aa/*
+
+# Editor / OS
+.vs/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Machine-local AI tool settings (shared .mcp.json and .codex/config.toml are tracked)
+.claude/settings.local.json
+CLAUDE.local.md
