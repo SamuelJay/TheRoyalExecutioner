@@ -96,6 +96,16 @@ The executioner is not the judge. Their official role is to carry out sentences;
 - **[Agreed]** Built on the Notorious P.I.G. framework (services/bootstrap/events/scenes) and, where useful, the separate character package. Neither is used by any game code yet.
 - **[Open]** Visual style, animation pipeline, final presentation, audio direction, UI approach.
 
+### Development approach: text first
+
+**[Agreed]** This is a development approach, not a decision that the released game will be text-based. The spectacle described in section 7 remains part of the intended game.
+
+- The initial game is developed inside Unity using simple text and UI controls.
+- The initial focus is prisoner management, decisions, resources, consequences, progression and narrative.
+- Executions initially resolve through gameplay rules and display textual outcomes.
+- A visual scaffold, character animation, execution effects and physical spectacle are introduced in a later phase.
+- Gameplay state, decision resolution and execution outcomes should stay independent of their visual presentation, so presentation can be added later without rewriting the rules. No particular architecture is prescribed.
+
 ## 11. Confirmed decisions (summary)
 
 - Small management game, simple controls, PC/Steam first, Unity.
@@ -105,6 +115,7 @@ The executioner is not the judge. Their official role is to carry out sentences;
 - Finite replayable campaign, escalating political instability, undecided events and endings.
 - Adult tone, with gore not automatically removed.
 - Placeholder assets first; visual style undecided.
+- Text-first development in Unity: gameplay is proven with text and UI before the visual scaffold, animation and execution spectacle are added. The released game is not decided to be text-based.
 
 ## 12. Open design questions
 
@@ -119,3 +130,4 @@ The executioner is not the judge. Their official role is to carry out sentences;
 - How are the kingdom's factions represented, if at all?
 - How is the First Night-type material handled so the humour hits the institution, not the victims?
 - Visual style and animation approach.
+- When does the visual phase begin, and how is the spectacle validated once it exists (see PrototypePlan.md)?
