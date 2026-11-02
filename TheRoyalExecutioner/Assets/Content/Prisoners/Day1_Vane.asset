@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d95dc40e90149959e6f92ccf96e3b6, type: 3}
+  m_Name: Day1_Vane
+  m_EditorClassIdentifier: 
+  <prisonerName>k__BackingField: "Sir Reginald Vane"
+  <crime>k__BackingField: "Treasonous mirth (laughing at the Queen Mother's eulogy)"
+  <orderText>k__BackingField: "Public beheading at two. A petition from Lady Vane is attached. Fee: 30 coin."
+  <fileText>k__BackingField: "Sir Reginald snorted at the phrase 'she is now at peace with her seventeen corgis'. Three witnesses, one stenographer and the corgis' lawyer confirm it.\n\nHis mother, Lady Vane, has attached a petition on scented paper. The family's lace-makers will be seated in the front row, in ivory silk. Her last executioner was transferred to the Salt Mines for 'splashing'. The Court allows a bloodless alternative under the Cushion Levy, payable by the family but advanced, naturally, by you."
+  <fee>k__BackingField: 30
+  <requirement>k__BackingField:
+    required: 0
+    forbidden: 0
+  <scrutinyIfClean>k__BackingField: 0
+  <scrutinyIfNotClean>k__BackingField: 1
+  <cleanExecutionText>k__BackingField: "One clean stroke. Sir Reginald is still smiling. The ivory silk remains ivory. Lady Vane nods once, which is the most the nobility has ever acknowledged an executioner."
+  <messyExecutionText>k__BackingField: "The first stroke is not enough, and the ivory silk is no longer ivory. Lady Vane's lace-makers faint in a neat row. Someone will write a letter."
+  <botchedExecutionText>k__BackingField: "It takes four strokes. The front row has been redecorated. Lady Vane stands, says nothing, and walks out, which is far worse than shouting."
+  <hasChallenge>k__BackingField: 0
+  <challenge>k__BackingField:
+    <label>k__BackingField: ""
+    <resultText>k__BackingField: ""
+    <method>k__BackingField: 0
+    <moneyChange>k__BackingField: 0
+    <scrutinyChange>k__BackingField: 0
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 0
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0
+  <contextualChoices>k__BackingField:
+  - <label>k__BackingField: "Honour the petition: the Cushion of Mild Regret"
+    <resultText>k__BackingField: "You smother Sir Reginald with the Ceremonial Cushion of Mild Regret, a procedure that takes eleven minutes and leaves the lace spotless. His last muffled word is 'corgis', and he is still laughing at the end."
+    <method>k__BackingField: 2
+    <moneyChange>k__BackingField: -12
+    <scrutinyChange>k__BackingField: 0
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 1
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0

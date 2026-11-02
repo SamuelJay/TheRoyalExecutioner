@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692a47a8a61724f93af706b5410ece62, type: 3}
+  m_Name: Campaign
+  m_EditorClassIdentifier: 
+  <rules>k__BackingField: {fileID: 11400000, guid: dd797d7119cd55e3af2d452399bf621a, type: 2}
+  <days>k__BackingField:
+  - <title>k__BackingField: "A Probationary Tuesday"
+    <briefing>k__BackingField: "The Chancellery has delivered today's list, a purse of coin for the upkeep of your axe, and a memo reminding you that you are 'a functionary, not a philosopher'.\n\nRead the files. Do the work. Keep an eye on the axe, and an eye on the Crown's eye."
+    <morningEvents>k__BackingField: []
+    <cases>k__BackingField:
+    - {fileID: 11400000, guid: 6fa0aa1414115e8997a6897ae259b9b5, type: 2}
+    - {fileID: 11400000, guid: 0cb408666a3b5243b1eadd04bb7b2446, type: 2}
+    - {fileID: 11400000, guid: b2b286e1513e5bee8a35c7f33324338f, type: 2}
+  - <title>k__BackingField: "Wednesday, Allegedly"
+    <briefing>k__BackingField: "The paperwork bred overnight. It does that when left unsupervised."
+    <morningEvents>k__BackingField:
+    - <requirement>k__BackingField:
+        required: 1
+        forbidden: 0
+      <text>k__BackingField: "A cart rolls up from Lowe's Mill. Edric Lowe's apprentices have reground your axe on the millstone, free of charge, singing something about justice."
+      <moneyChange>k__BackingField: 0
+      <axeConditionChange>k__BackingField: 35
+      <scrutinyChange>k__BackingField: 0
+    - <requirement>k__BackingField:
+        required: 2
+        forbidden: 0
+      <text>k__BackingField: "A ham arrives from the Tax Reeve's office, with a note: 'For our mutual friend. Do keep reading less.'"
+      <moneyChange>k__BackingField: 8
+      <axeConditionChange>k__BackingField: 0
+      <scrutinyChange>k__BackingField: 0
+    <cases>k__BackingField:
+    - {fileID: 11400000, guid: 383e3bd9182059e2acb403cc5e99d902, type: 2}
+    - {fileID: 11400000, guid: a97219dff77c5a2889f7ed6040c7bd9a, type: 2}
+    - {fileID: 11400000, guid: 27b5058f93ba5803bae2b39cbe5657d6, type: 2}
+  <arrestedText>k__BackingField: "The Lord Chancellor's men do not knock. They carry a document that is, for once, correctly dated, correctly signed and entirely about you.\n\n'The Crown has noticed,' says the senior clerk, 'that you have been reading the paperwork.' The scaffold is about to host a new tenant. A replacement executioner will be found by Friday; the form is already printed."
+  <retainedText>k__BackingField: "The Chancellery sends a note: your employment continues, subject to review. You remain the only person in the kingdom who reads to the bottom of the page.\n\nSomewhere, a form concerning you is being drafted. It is not ready yet."

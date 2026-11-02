@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d95dc40e90149959e6f92ccf96e3b6, type: 3}
+  m_Name: Day1_Fenn
+  m_EditorClassIdentifier: 
+  <prisonerName>k__BackingField: "Tobias Fenn"
+  <crime>k__BackingField: "Poaching a royal swan (found dead)"
+  <orderText>k__BackingField: "Beheading at noon, by the Court of Last Resort. Fee: 20 coin."
+  <fileText>k__BackingField: "Fenn found a swan dead on the riverbank and took it home for supper. The Crown holds that every swan is royal property, living or otherwise, and that carrying one is 'poaching in arrears'. The swan is attached to the file as Exhibit A. It is not getting any fresher.\n\nThe judge's signature, the seal and the sentence are all in order. This is what an ordinary day looks like."
+  <fee>k__BackingField: 20
+  <requirement>k__BackingField:
+    required: 0
+    forbidden: 0
+  <scrutinyIfClean>k__BackingField: 0
+  <scrutinyIfNotClean>k__BackingField: 0
+  <cleanExecutionText>k__BackingField: "One stroke. The crowd, who came for the swan jokes, applauds politely. Fenn's last words are 'Tell Gerald I'm sorry.' Nobody knows a Gerald."
+  <messyExecutionText>k__BackingField: "It takes two strokes and a brief, apologetic third. The front row is no longer sure what it applauded. The swan is quietly removed."
+  <botchedExecutionText>k__BackingField: "The axe bounces off Fenn's collarbone with the sound of a dropped pan. He offers to hold still while you fetch a better one. The Clerk of Ceremonies logs it as 'concluded, eventually'."
+  <hasChallenge>k__BackingField: 1
+  <challenge>k__BackingField:
+    <label>k__BackingField: "Appeal to the Office of Swan Affairs"
+    <resultText>k__BackingField: "The Office of Swan Affairs studies the file for a long while, stamps it twice, and invoices you for the stamping. The sentence stands."
+    <method>k__BackingField: 1
+    <moneyChange>k__BackingField: -5
+    <scrutinyChange>k__BackingField: 0
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 0
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0
+  <contextualChoices>k__BackingField: []

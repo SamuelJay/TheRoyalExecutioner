@@ -1,0 +1,26 @@
+{
+    "name": "TheRoyalExecutioner.Tests",
+    "rootNamespace": "TheRoyalExecutioner.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "TheRoyalExecutioner",
+        "NotoriousPIG.Framework.Runtime",
+        "NotoriousPIG.Framework.Events"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

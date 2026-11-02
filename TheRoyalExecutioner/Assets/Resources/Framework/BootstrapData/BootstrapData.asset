@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e42b287b76543e9b6915a48faad1b9, type: 3}
+  m_Name: BootstrapData
+  m_EditorClassIdentifier: NotoriousPIG.Framework.Runtime::BootstrapData
+  initialSceneName: TextPrototype
+  appServices:
+  - serviceName: Events
+    prefab: {fileID: 7296222403843655681, guid: 6c27ecf5a6f8e4b6b82f164a084a7429, type: 3}
+    lifetime: 0
+    interfacesToRegister:
+    - IEvents
+  - serviceName: Runs
+    prefab: {fileID: 3707916965031890217, guid: 2c5922e5240e44188b839107adc4c61d, type: 3}
+    lifetime: 0
+    interfacesToRegister:
+    - IRuns
+  sceneServices: []

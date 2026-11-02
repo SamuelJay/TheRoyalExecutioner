@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d95dc40e90149959e6f92ccf96e3b6, type: 3}
+  m_Name: Day2_Wenna
+  m_EditorClassIdentifier: 
+  <prisonerName>k__BackingField: "Wenna Lowe"
+  <crime>k__BackingField: "Inherited treason (Statute of Hereditary Guilt)"
+  <orderText>k__BackingField: "Beheading at noon, family account to be settled in full. Fee: 20 coin."
+  <fileText>k__BackingField: "Wenna Lowe, nineteen, is the late miller's daughter. The Statute of Hereditary Guilt lets a treasonous family be settled all at once, 'to save on paperwork'. She has asked only that someone check the mill's accounts. Nobody will.\n\nThe Statute was repealed four years ago, by a clause buried in the Spoon Tax Act. The Registry still stocks the old forms. Tax Reeve Haldane, who now owns the mill, has sent word through his clerk."
+  <fee>k__BackingField: 20
+  <requirement>k__BackingField:
+    required: 0
+    forbidden: 1
+  <scrutinyIfClean>k__BackingField: 0
+  <scrutinyIfNotClean>k__BackingField: 0
+  <cleanExecutionText>k__BackingField: "It is quick, and quiet, and nobody in the crowd says anything funny. The Registry stamps the form 'settled in full'. You will remember the quiet."
+  <messyExecutionText>k__BackingField: "It takes longer than it should, and the silence in the square is the worst of it. The Registry stamps the form 'settled'. Nobody asks how it went."
+  <botchedExecutionText>k__BackingField: "It is not quick. The crowd, for once, looks away. The Registry stamps the form 'settled' regardless."
+  <hasChallenge>k__BackingField: 1
+  <challenge>k__BackingField:
+    <label>k__BackingField: "Cite the repeal (Spoon Tax Act, clause nine)"
+    <resultText>k__BackingField: "You read the clause aloud to a Registry clerk, who has to be sat down. Wenna Lowe is returned to her cell, where she demands to know why nobody checked the accounts. The Registry begins drafting a new form."
+    <method>k__BackingField: 0
+    <moneyChange>k__BackingField: -8
+    <scrutinyChange>k__BackingField: 1
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 1
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0
+  <contextualChoices>k__BackingField:
+  - <label>k__BackingField: "Accept Haldane's offer: 60 coin to keep it quick and quiet"
+    <resultText>k__BackingField: "Haldane's clerk names a price in the tone of a man selling a horse."
+    <method>k__BackingField: 1
+    <moneyChange>k__BackingField: 60
+    <scrutinyChange>k__BackingField: 1
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 0
+    <isUnofficial>k__BackingField: 1
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 2
+  - <label>k__BackingField: "Accept Haldane's standing offer: 100 coin, loyalty rate"
+    <resultText>k__BackingField: "The clerk does not bother to lower his voice. 'The usual,' he says. It is, now."
+    <method>k__BackingField: 1
+    <moneyChange>k__BackingField: 100
+    <scrutinyChange>k__BackingField: 2
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 0
+    <isUnofficial>k__BackingField: 1
+    <requirement>k__BackingField:
+      required: 2
+      forbidden: 0

@@ -1,6 +1,6 @@
 # The Royal Executioner: Prototype Plan
 
-Plan for the smallest meaningful playable prototype. Everything is a candidate, not a requirement. No implementation exists yet.
+Plan for the smallest meaningful playable prototype. Everything is a candidate, not a requirement. A first text-based implementation now exists (see Implementation status below); its rules are provisional.
 
 ## Development approach
 
@@ -90,3 +90,18 @@ Visual phase:
 If players can describe their own story of the day and want another, the loop is promising: grow content and systems. If not, change the decisions before adding scope.
 
 Separately, the visual spectacle is judged by the visual-phase observation above, not by the text loop's result.
+
+## Implementation status
+
+A first playable text prototype is implemented: scene `Assets/Scenes/TextPrototype.unity`, game code in `Assets/Scripts`, authored content (ScriptableObjects) in `Assets/Content`, EditMode tests in `Assets/Tests/EditMode`.
+
+What exists (all provisional prototype rules, not design decisions):
+- Two days, five prisoner encounters per run (six authored; day two shows a variant depending on day-one choices).
+- Resources: coin, axe condition and Crown scrutiny. Axe condition decides whether an axe execution is clean, messy or botched (deterministic thresholds); messy and botched pay less fee and draw scrutiny. Sharpening costs coin.
+- Per prisoner: examine the file, carry out the sentence, challenge it (where authored), plus authored contextual choices (bribes, a bloodless alternative method). Some options need the file examined first; unofficial options are locked while an Auditor attends (scrutiny at or above the threshold at the start of a day).
+- Carry-over: coin, axe condition, scrutiny, and story flags that gate day-two cases and morning events. Final scrutiny decides a simple retained/arrested conclusion. Restart begins a fresh run.
+- Framework use: `IEvents` carries run events to the UI; `RunManager` is an app service (`IRuns`) registered through the framework bootstrap data in `Assets/Resources/Framework/BootstrapData`.
+
+Verified: EditMode tests (18) pass against the authored content; both routes through the prototype were driven through the real UI in Play Mode in the Unity Editor.
+
+Not verified: built player, non-16:9 and portrait Game view layouts, controller/keyboard navigation, and real playtests (balance, readability, and every item in the observation list above remain untested).

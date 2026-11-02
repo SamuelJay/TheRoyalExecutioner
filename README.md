@@ -8,7 +8,7 @@ Tone: black comedy, grotesque absurdity, dark fantasy and the occasional genuine
 
 ## Status
 
-Concept/design and prototype preparation. There is no gameplay code, no scenes beyond the Unity template, and no art. See the planning documents for what is agreed and what is still open.
+Concept/design and a first text-based playable prototype (open `Assets/Scenes/TextPrototype.unity` and press Play). There is no art. See the planning documents for what is agreed and what is still open.
 
 ## Documents
 

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d95dc40e90149959e6f92ccf96e3b6, type: 3}
+  m_Name: Day1_Edric
+  m_EditorClassIdentifier: 
+  <prisonerName>k__BackingField: "Edric Lowe"
+  <crime>k__BackingField: "Treason (grinding wheat for rebels)"
+  <orderText>k__BackingField: "Hooded beheading at four, at the accuser's request. Fee: 25 coin."
+  <fileText>k__BackingField: "Edric Lowe, miller, was found with flour on his person at a meeting of the Rebellious Bakers' Circle. Accuser: Tax Reeve Haldane, who also acquired the deed to Lowe's mill on Tuesday. A coincidence, says the paperwork, underlined twice.\n\nThe warrant is dated the fourteenth. The meeting took place on the fifteenth. Somebody signed the sentence a day before the crime, and the Court has not noticed. You are, as usual, the only person who read to the bottom."
+  <fee>k__BackingField: 25
+  <requirement>k__BackingField:
+    required: 0
+    forbidden: 0
+  <scrutinyIfClean>k__BackingField: 0
+  <scrutinyIfNotClean>k__BackingField: 0
+  <cleanExecutionText>k__BackingField: "The hood goes on, the axe comes down, and Lowe's last words are muffled by the hood: something about flour, and then something about a deed. On the balcony, Haldane starts applauding a little before the axe lands. The stenographer notes it as 'enthusiasm'."
+  <messyExecutionText>k__BackingField: "It takes two strokes. The hood is a mercy for everyone but the hood. Haldane applauds in the wrong place, then in the right one."
+  <botchedExecutionText>k__BackingField: "The first stroke skids off the hooded neck. Lowe asks, quite reasonably, whether he might keep the deed. Haldane has stopped applauding."
+  <hasChallenge>k__BackingField: 1
+  <challenge>k__BackingField:
+    <label>k__BackingField: "Challenge the warrant: it predates the crime"
+    <resultText>k__BackingField: "You present the dates to the Clerk of Corrections, who reads them three times, turns grey, and suspends the sentence pending an inquiry that will never conclude. Edric Lowe is led away, blinking. Haldane's balcony empties fast."
+    <method>k__BackingField: 0
+    <moneyChange>k__BackingField: -8
+    <scrutinyChange>k__BackingField: 1
+    <flagToSet>k__BackingField: 1
+    <requiresExamination>k__BackingField: 1
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0
+  <contextualChoices>k__BackingField:
+  - <label>k__BackingField: "Accept Haldane's envelope"
+    <resultText>k__BackingField: "Haldane's clerk slides a fat envelope across the block. 'The Reeve would like it quick, and silent.' You nod to the envelope rather than the clerk."
+    <method>k__BackingField: 1
+    <moneyChange>k__BackingField: 50
+    <scrutinyChange>k__BackingField: 1
+    <flagToSet>k__BackingField: 2
+    <requiresExamination>k__BackingField: 0
+    <isUnofficial>k__BackingField: 1
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0

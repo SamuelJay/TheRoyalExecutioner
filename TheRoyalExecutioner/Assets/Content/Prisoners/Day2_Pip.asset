@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d95dc40e90149959e6f92ccf96e3b6, type: 3}
+  m_Name: Day2_Pip
+  m_EditorClassIdentifier: 
+  <prisonerName>k__BackingField: "Pip Mumbles, Court Jester"
+  <crime>k__BackingField: "Lese-majeste (a joke about the royal soup)"
+  <orderText>k__BackingField: "Immediate beheading by royal decree. Fee: 40 coin (royal rate)."
+  <fileText>k__BackingField: "His Majesty wishes Mr Mumbles executed before the soup course, which is soon. The decree is written on a napkin, in gravy, and countersigned by the Soup Master, who has no legal standing but does have a ladle.\n\nIt is the only royal order this month not written on parchment. Royal Rule 7 states that all royal orders shall be written on royal parchment. Rule 7 was written by His Majesty."
+  <fee>k__BackingField: 40
+  <requirement>k__BackingField:
+    required: 0
+    forbidden: 0
+  <scrutinyIfClean>k__BackingField: -1
+  <scrutinyIfNotClean>k__BackingField: 2
+  <cleanExecutionText>k__BackingField: "One stroke, in time for the soup. The King nods, the court laughs because the King did, and the Soup Master ladles a toast. Pip's last joke is, by general agreement, better than the one that killed him."
+  <messyExecutionText>k__BackingField: "Two strokes, and the soup goes cold. His Majesty's expression suggests the soup has been personally insulted. 'Better,' he sighs, 'but not good.'"
+  <botchedExecutionText>k__BackingField: "The axe sticks. The soup course arrives while you are still working. The King eats with great concentration, and notes your name with greater."
+  <hasChallenge>k__BackingField: 1
+  <challenge>k__BackingField:
+    <label>k__BackingField: "Cite Rule 7: napkins are not parchment"
+    <resultText>k__BackingField: "You hold up Rule 7. There is a very long silence. The Soup Master faints, and His Majesty, after consulting a woman with a clipboard, concedes that Pip may live 'until the parchment arrives'. It will not arrive soon. The King does not thank you."
+    <method>k__BackingField: 0
+    <moneyChange>k__BackingField: -10
+    <scrutinyChange>k__BackingField: 2
+    <flagToSet>k__BackingField: 0
+    <requiresExamination>k__BackingField: 1
+    <isUnofficial>k__BackingField: 0
+    <requirement>k__BackingField:
+      required: 0
+      forbidden: 0
+  <contextualChoices>k__BackingField: []
